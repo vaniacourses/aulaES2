@@ -11,7 +11,7 @@ public class VinteEUm {
 		if (dir > 21)
 			dir = 0;
 		if (esq > dir)
-			return dir;
+			return dir; 
 		else
 			return esq;
 	}
